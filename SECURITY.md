@@ -6,7 +6,18 @@ precedence for that repository.
 
 ## Reporting a vulnerability
 
-Email **security@tagit.network**. Do not open a public issue for a security report.
+Email **info@tagit.network**. Do not open a public issue for a security report.
+
+You can also use GitHub's **private vulnerability reporting** — the "Report a vulnerability"
+button on the Security tab of any of our public repositories. It is enabled org-wide and,
+unlike email, it cannot bounce.
+
+> **The contact address changed on 2026-08-25.** This file previously named
+> `security@tagit.network`. That address has been reported to bounce and we could not
+> confirm it ever delivered a message, so the policy has moved to `info@tagit.network`,
+> which is monitored. `disclosure@tagit.network` and `emergency@tagit.network` appear in
+> older documentation and have never existed. If you sent a report to `security@` and heard
+> nothing, we did not receive it — please resend.
 
 Please include: affected repository and commit or contract address, chain and network, a
 description of the issue, reproduction steps or a proof-of-concept, and your assessment of impact.
@@ -50,7 +61,7 @@ with this policy. Good faith means: you avoid privacy violations, data destructi
 degradation; you only interact with accounts you own or have explicit permission to test; you give
 us reasonable time to respond before disclosing publicly.
 
-If you are unsure whether a specific action is in scope, ask first at security@tagit.network.
+If you are unsure whether a specific action is in scope, ask first at info@tagit.network.
 
 ## Bug bounty
 
