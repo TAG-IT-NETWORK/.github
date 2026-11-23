@@ -1,31 +1,23 @@
 <p align="center">
-  <img src="../assets/tagit-network-banner.jpg" width="100%" alt="TAG IT Network — Verifiable identity infrastructure for physical assets" />
+  <img src="https://raw.githubusercontent.com/TAG-IT-NETWORK/.github/main/assets/tagit-watch-banner.jpg" width="100%" alt="TAG IT Network. A phone taps a watch to answer the question: Is this watch the real thing?" />
 </p>
 
-<p align="center">
-  <a href="https://www.tagit.network"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-tagit.network-0B1220?style=for-the-badge&logo=googlechrome&logoColor=52D6FF"></a>
-  <a href="https://github.com/TAG-IT-NETWORK/tagit-docs"><img alt="Documentation" src="https://img.shields.io/badge/DOCS-Developer_Portal-0B1220?style=for-the-badge&logo=readthedocs&logoColor=52D6FF"></a>
-  <a href="https://github.com/TAG-IT-NETWORK/tagit-contracts"><img alt="Base Sepolia" src="https://img.shields.io/badge/NETWORK-Base_Sepolia-0052FF?style=for-the-badge&logo=coinbase&logoColor=white"></a>
-  <a href="https://github.com/TAG-IT-NETWORK/.github/blob/main/SECURITY.md"><img alt="Security policy" src="https://img.shields.io/badge/SECURITY-Policy-12344D?style=for-the-badge&logo=securityscorecard&logoColor=52D6FF"></a>
-</p>
+# You can tap the watch. Your AI agent can check it, too.
 
-<h1 align="center">The trust layer between physical products and the digital world.</h1>
+TAG IT gives physical products an identity that people and AI agents can verify. A maker links a secure NFC tag to an individual item. Tap it with a phone to see where it came from and check its recorded history. An AI agent can read the same record before recommending a purchase.
 
-<p align="center">
-  TAG IT Network binds NFC-enabled products to cryptographic digital twins, creating a verifiable record of authenticity, ownership and provenance that follows an asset throughout its lifecycle.
-</p>
+Imagine telling your assistant, **“Find me this watch secondhand, check its history, and ask me before you buy it.”** That’s the kind of commerce we’re building toward.
 
----
+## What could an agent tell you?
 
-## From a physical object to a verifiable digital identity
+| Example result | What it means for a buyer |
+| --- | --- |
+| Tag verified | The tag checks out against the maker’s record. The agent can show you the item’s recorded history. |
+| Reported stolen | Even a genuine item can be flagged. The agent can warn you before you buy. |
 
-| 01 · Bind | 02 · Verify | 03 · Track | 04 · Automate |
-|:--|:--|:--|:--|
-| Secure NFC identity is attached to a physical asset. | A tap resolves the asset's cryptographic digital twin. | Ownership and lifecycle events are recorded on-chain. | Permissioned agents and applications act on trusted asset data. |
+## Build with TAG IT
 
-> **Physical asset → NFC identity → Digital twin → On-chain lifecycle**
-
-TAG IT is designed for products whose history matters: luxury goods, pharmaceuticals, industrial equipment, logistics and other high-value real-world assets.
+Start with the [developer docs](https://github.com/TAG-IT-NETWORK/tagit-docs) or explore the [TypeScript SDK](https://github.com/TAG-IT-NETWORK/tagit-sdk).
 
 ## Open-source protocol stack
 
@@ -39,14 +31,6 @@ TAG IT is designed for products whose history matters: luxury goods, pharmaceuti
 | **Governance** | [`tagit-governance`](https://github.com/TAG-IT-NETWORK/tagit-governance) | Governance configuration and operational transparency |
 | **Documentation** | [`tagit-docs`](https://github.com/TAG-IT-NETWORK/tagit-docs) | Protocol concepts, integration guides and technical references |
 
-## Built for verifiable real-world operations
-
-- **Authenticity:** cryptographically connect a product to a persistent digital identity.
-- **Provenance:** preserve an auditable history of lifecycle and ownership events.
-- **Programmability:** let applications and permissioned agents use verified asset state.
-- **Interoperability:** expose protocol capabilities through contracts, SDKs, APIs and indexed data.
-- **Accountability:** publish deployment addresses, known limitations and security guidance.
-
 ## Current network status
 
 > [!IMPORTANT]
@@ -54,16 +38,4 @@ TAG IT is designed for products whose history matters: luxury goods, pharmaceuti
 
 Security review is in progress. Review the current [`audit scope`](https://github.com/TAG-IT-NETWORK/tagit-contracts/blob/main/AUDIT-SCOPE.md) and [`known issues`](https://github.com/TAG-IT-NETWORK/tagit-contracts/blob/main/KNOWN-ISSUES.md) before integrating.
 
-## Build with TAG IT
-
-Start with the [`documentation`](https://github.com/TAG-IT-NETWORK/tagit-docs), explore the [`smart contracts`](https://github.com/TAG-IT-NETWORK/tagit-contracts), or integrate through the [`TypeScript SDK`](https://github.com/TAG-IT-NETWORK/tagit-sdk).
-
-<p align="center">
-  <a href="https://www.tagit.network"><strong>Explore TAG IT Network</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:info@tagit.network"><strong>Talk to the team</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:security@tagit.network"><strong>Report a vulnerability</strong></a>
-</p>
-
-<p align="center"><sub>Authenticate every product. Trust every transaction.</sub></p>
+[Visit TAG IT Network](https://www.tagit.network) · [Contact the team](mailto:info@tagit.network) · [Report a vulnerability](https://github.com/TAG-IT-NETWORK/.github/blob/main/SECURITY.md)
